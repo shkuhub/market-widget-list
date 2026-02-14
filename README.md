@@ -1,29 +1,17 @@
+<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://kr.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">트레이딩뷰에서 모든 시장 추적2</span></a></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/news/top-providers/tradingview/" rel="noopener nofollow" target="_blank"><span class="blue-text">Top stories</span></a><span class="trademark"> by TradingView</span></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
   {
-  "feedMode": "symbol",
-  "symbols": [
-    {
-      "proName": "KRX:005930",
-      "title": "삼성전자"
-    },
-    {
-      "proName": "KRX:000660",
-      "title": "SK하이닉스"
-    },
-    {
-      "proName": "KRX:042700",
-      "title": "한미반도체"
-    }
-  ],
+  "displayMode": "regular",
+  "feedMode": "all_symbols",
   "colorTheme": "light",
   "isTransparent": false,
-  "displayMode": "regular",
+  "locale": "en",
   "width": 400,
-  "height": 550,
-  "locale": "kr"
+  "height": 550
 }
   </script>
 </div>
+<!-- TradingView Widget END -->
